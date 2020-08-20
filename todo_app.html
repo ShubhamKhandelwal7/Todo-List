@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Users ToDo</title>
+  <link href="todo_app.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="container">
+    <div id="button-elements">
+      <div id="user-container">
+        <input type="button" id="input-user" value="Create User" />
+        <br />
+        <div id="user-elements-container">
+          <form id="user-create-form">
+            <label> Name: </label>
+            <input type="text" id="user-name" />
+            <input type="button" id="add-user" value="Add" />
+          </form>
+        </div>
+      </div>
+
+      <div id="todo-container">
+        <input type="button" id="input-todo" value="Create ToDo" />
+        <br />
+        <div id="todo-elements-container">
+          <form id="todo-create-form">
+            <label> ToDo: </label>
+            <input type="text" id="todo-name" />
+            <select name="Users" id="added-users-name"></select>
+            <input type="button" id="add-todo" value="Save" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="users-list-container">
+      <label>USERS</label><br />
+      <br />
+    </div>
+    <div id="todos-list-container">
+      <label>TO-DOs</label><br />
+      <br />
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"
+          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+          crossorigin="anonymous"></script>
+  <script src="todo_app.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+#users-list-container {
+  margin-top: 140px;
+  padding-left: 30%;
+  margin-bottom: 40px;
+  float: left;
+  /*position:fixed;*/
+}
+#todos-list-container {
+  padding-left: 15%;
+  margin-right: 50px;
+  float: left;
+  margin-top: 140px;
+  /*position: fixed;*/
+  max-width: 150px;
+}
+
+#user-elements-container {
+  /*display: none;*/
+  padding-top: 30px
+}
+#todo-elements-container {
+  /*display: none;*/
+  /*margin-left: 10px;*/
+  margin-top: 20px;
+}
+
+#input-user {
+  float: left;
+}
+
+#input-todo {
+  float: left;
+  margin-right: 20px;
+}
+
+#user-container {
+  margin-left: 10px;
+  margin-right: 80%;
+  margin-top: 20px;
+}
+
+#todo-container {
+  margin-left: 10px;
+  /*margin-right: 80%;*/
+  margin-top: 20px;
+}
+
+label {
+  padding-bottom:20px;
+}
